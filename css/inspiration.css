@@ -53,15 +53,15 @@
 }
 
 .inspiration__card.card-1 .wrapper {
-    background-image: url(/media/img/Arashiyama.jpg);
+    background-image: url(../media/img/Arashiyama.jpg);
 }
 
 .inspiration__card.card-2 .wrapper {
-    background-image: url(/media/img/food.jpg);
+    background-image: url(../media/img/food.jpg);
 }
 
 .inspiration__card.card-3 .wrapper {
-    background-image: url(/media/img/Kiyomizu-dera.jpg);
+    background-image: url(../media/img/Kiyomizu-dera.jpg);
 }
 
 .inspiration__card.card-3 .wrapper::after {
@@ -69,19 +69,19 @@
 }
 
 .inspiration__card.card-4 .wrapper {
-    background-image: url(/media/img/Shibuya-Intersection.jpg);
+    background-image: url(../media/img/Shibuya-Intersection.jpg);
 }
 
 .inspiration__card.card-5 .wrapper {
-    background-image: url(/media/img/Onsen.jpg);
+    background-image: url(../media/img/Onsen.jpg);
 }
 
 .inspiration__card.card-6 .wrapper {
-    background-image: url(/media/img/kendo.jpg);
+    background-image: url(../media/img/kendo.jpg);
 }
 
 .inspiration__card.card-7 .wrapper {
-    background-image: url(/media/img/Anime-culture.jpg);
+    background-image: url(../media/img/Anime-culture.jpg);
 }
 
 @media (min-width: 2300px) {
