@@ -1,0 +1,78 @@
+:root {
+    --color-background-dark-04: rgba(0, 0, 0, 0.4);
+    --color-background-dark-05: rgba(0, 0, 0, 0.5);
+
+    --color-text-primary: #1d1d1d;
+    --color-text-secondary: #1C1C1C;    
+    /* Сими-иро (墨色) - Цвет туши, глубокий черный с оттенком серого */
+
+    --color-text-white-primary: #FFF;
+    /* альтернатива - #FBF7F0 (но кажется грязноватой)*/
+    /* Кинари (生成り) - Теплый белый, цвет небеленого шелка или бумаги васи */
+
+    --color-text-white-hover: #fff6ff;
+    --color-text-white-focus: #feebff;
+    --color-text-white-disabled: #bebabe;
+
+    --color-red-primary: #e2202a;
+    --color-red-focus: #bb3b41;
+    --color-red-disabled: #832e32;
+    --color-red-hover: #B7282E;
+    /* Акане-иро (茜色) - Красный цвет заката, теплый, притягательный, традиционный */
+    --color-red-secondary: #9F1D35;
+    /* Эндзи (臙脂) - Кармин, еще глубже и благороднее */
+
+    --box-shadow-card: 0 4px 12px rgba(0, 0, 0, 0.15);
+    --box-shadow-card-checked: 0 4px 12px rgba(70, 126, 210, 0.3);
+
+    --section-gap: 240px;
+    
+    @media (max-width: 900px) {
+        --section-gap: 160px;
+    }
+
+    @media (max-width: 460px) {
+        --section-gap: 120px;
+    }
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--color-text-primary);
+    font-size: 1.3rem;
+    line-height: 1.2;
+}
+
+.wrapper {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.color_none {
+    color: unset;
+}
+
+.hover-item {
+    transition: transform .3s cubic-bezier(0.25, 0.46, 0.45, 1.5);
+}
+
+.hover-item:hover(:not:disabled) {
+    transform: translateY(-4px);
+}
+
+.section_gap {
+    margin-bottom: var(--section-gap);
+}
+
+.section__two-columns .wrapper {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    column-gap: 100px;
+}

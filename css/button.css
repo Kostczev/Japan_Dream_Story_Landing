@@ -1,0 +1,42 @@
+.button {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    display: inline-block;
+
+    transition: background .1s ease;
+}
+
+.button_white {
+    background: var(--color-text-white-primary);
+    color: var(--color-text-secondary);
+}
+
+.button_white:hover {
+    background: var(--color-text-white-hover);
+}
+
+.button_white:focus {
+    background: var(--color-text-white-focus);
+}
+
+.button_white:disabled {
+    background: var(--color-text-white-disabled);
+}
+
+.button__red {
+    background: var(--color-red-primary);
+    color: var(--color-text-white-primary);
+}
+
+.button__red:hover(:not:disabled) {
+    background: var(--color-red-hover);
+}
+
+.button__red:focus(:not:disabled) {
+    background: var(--color-red-focus);
+}
+
+.button__red:disabled {
+    background: var(--color-red-disabled);
+}

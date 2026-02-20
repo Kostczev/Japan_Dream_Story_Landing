@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ваше путешествие начинается с мечты</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/nullstyle.css">
+
+
+    <link rel="stylesheet" href="css/text.css">
+    <link rel="stylesheet" href="css/margin.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/video-card.css">
+    <link rel="stylesheet" href="css/horizontalScrollSection.css">
+
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/who-us.css">
+    <link rel="stylesheet" href="css/inspiration.css">
+    <link rel="stylesheet" href="css/how-it-works.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+
+<body>
+    <section class="hero section_gap">
+        <div class="hero__video-block">
+            <video playsinline autoplay muted loop preload="auto" class="hero__video">
+                <source src="media/video/hero-mobile.mp4" type="video/mp4" media="(max-width: 768px)">
+                <source src="media/video/hero-desktop.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="wrapper hero__content">
+            <div class="hero__logo">JAPANSPIRIT | ПУТЕШЕСТВИЕ МЕЧТЫ</div>
+            <h1 class="h1 hero__title">Ваше путешествие начинается с мечты <br> Мы помогаем ей стать реальностью</h1>
+            <div class="hero__text">
+                <p class="mb12">Откройте для себя Японию, которую не показывают в путеводителях</p>
+                <p>Мы создаем не просто маршруты, а персональные истории — от тихих садов Киото до неоновых огней Токио
+                </p>
+            </div>
+            <a class="hero__button button button_white" href="#form">Спроектировать путешествие</a>
+
+            <h3 class="h3 color_none hero__subtitle">Многогранная Япония</h3>
+
+            <div class="hero__carousel carousel__container">
+                <div class="carousel__buttons">
+                    <button class="carousel__button carousel__button--prev button button_white" aria-label="Предыдущий слайд">
+                        ←
+                    </button>
+                    <button class="carousel__button carousel__button--next button button_white" aria-label="Следующий слайд">
+                        →
+                    </button>
+                </div>
+                <div class="carousel__track">
+                    <div class="carousel__item video-card hover-item">
+                        <video src="media/video/shibuya.mp4" class="video-card__video js-frozen-video" playsinline muted
+                            loop preload="auto"></video>
+                        <h4 class="video-card__title h4">Токио - Ритм будущего</h4>
+                    </div>
+                    <div class="carousel__item video-card hover-item">
+                        <video src="media/video/kiyomizu-dera.mp4" class="video-card__video js-frozen-video" playsinline
+                            muted loop preload="auto"></video>
+                        <h4 class="video-card__title h4">Киото - Тишина сквозь века</h4>
+                    </div>
+                    <div class="carousel__item video-card hover-item">
+                        <video src="media/video/hakone.mp4" class="video-card__video js-frozen-video" playsinline muted
+                            loop preload="auto"></video>
+                        <h4 class="video-card__title h4">Хаконе - Гармония стихий</h4>
+                    </div>
+                    <div class="carousel__item video-card hover-item">
+                        <video src="media/video/osaka.mp4" class="video-card__video js-frozen-video" playsinline muted
+                            loop preload="auto"></video>
+                        <h4 class="video-card__title h4">Осака - Праздник вкуса</h4>
+                    </div>
+                    <div class="carousel__item video-card hover-item">
+                        <video src="media/video/aomori.mp4" class="video-card__video js-frozen-video" playsinline muted
+                            loop preload="auto"></video>
+                        <h4 class="video-card__title h4">Аомори - Миг вечной красоты</h4>
+                    </div>
+                    <div class="carousel__item video-card hover-item">
+                        <video src="media/video/miyajima.mp4" class="video-card__video js-frozen-video" playsinline
+                            muted loop preload="auto"></video>
+                        <h4 class="video-card__title h4">Миядзима - Врата между мирами</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="who-us">
+        <div class="wrapper">
+            <h2 class="who-us__title h2 h2__extra">Не тур, а путешествие</h2>
+            <div class="who-us__cards">
+                <div class="who-us__card">
+                    <h3 class="who-us__card-title h3">Личная история</h3>
+                    <div class="who-us__card-text">Мы составляем маршрут не из отелей, а из ваших интересов</div>
+                </div>
+                <div class="who-us__card">
+                    <h3 class="who-us__card-title h3">Доступ к традициям</h3>
+                    <div class="who-us__card-text">Мастер-классы, закрытые для толп туристов места, чайные церемонии
+                    </div>
+                </div>
+                <div class="who-us__card">
+                    <h3 class="who-us__card-title h3">Технологии комфорта</h3>
+                    <div class="who-us__card-text">Мобильный гид с AR-навигацией, онлайн-консьерж</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="horizontal inspiration">
+        <div class="horizontal__sticky inspiration__sticky">
+            <div class="wrapper">
+                <h2 class="inspiration__title h2 h2__extra">Идеи для вдохновения</h2>
+            </div>
+
+            <div class="horizontal__track inspiration__horisontal-list">
+                <div class="inspiration__card card-1">
+                    <div class="wrapper">
+                        <div class="inspiration__card-text">
+                            <h3 class="inspiration__card-title h3">Для ценителей эстетики</h3>
+                            <p>Бамбуковая роща</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="inspiration__card card-2">
+                    <div class="wrapper">
+                        <div class="inspiration__card-text">
+                            <h3 class="inspiration__card-title h3">Гастрономическое путешествие</h3>
+                            <p>Такояки на гриле</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="inspiration__card card-3">
+                    <div class="wrapper">
+                        <div class="inspiration__card-text">
+                            <h3 class="inspiration__card-title h3">Путь паломника</h3>
+                            <p>Киёмидзу-дэра</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="inspiration__card card-4">
+                    <div class="wrapper">
+                        <div class="inspiration__card-text">
+                            <h3 class="inspiration__card-title h3">Техно-арт и неон</h3>
+                            <p>Ночная Сибуя</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="inspiration__card card-5">
+                    <div class="wrapper">
+                        <div class="inspiration__card-text">
+                            <h3 class="inspiration__card-title h3">Релакс</h3>
+                            <p>Онсэн</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="inspiration__card card-6">
+                    <div class="wrapper">
+                        <div class="inspiration__card-text">
+                            <h3 class="inspiration__card-title h3">Спорт</h3>
+                            <p>Кендо</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="inspiration__card card-7">
+                    <div class="wrapper">
+                        <div class="inspiration__card-text">
+                            <h3 class="inspiration__card-title h3">Аниме-культура</h3>
+                            <p>От фигурок до фестов</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works section_gap section__two-columns">
+        <div class="wrapper">
+            <div class="how-it-works__title-box">
+                <h2 class="how-it-works__title h2 h2__extra">Три шага к вашему идеальному путешествию</h2>
+                <p class="how-it-works__subtitle">Мы берем на себя всё: от первой идеи до финального билета</p>
+            </div>
+
+            <div class="how-it-works__steps">
+                <div class="step">
+                    <div class="step__num">Шаг 1</div>
+                    <h3 class="step__title h3">Расскажите о мечте</h3>
+                    <div class="step__text">Заполните короткую форму или просто напишите нам в мессенджер. Что вас
+                        вдохновляет? Храмы Киото? Уличная еда Осаки? Неон Токио? Мы внимательно слушаем.</div>
+                </div>
+                <div class="step">
+                    <div class="step__num">Шаг 2</div>
+                    <h3 class="step__title h3">Получите проект маршрута</h3>
+                    <div class="step__text">Через 48 часов мы пришлем вам готовый маршрут — живую презентацию с картами,
+                        ссылками, рекомендациями и скрытыми жемчужинами. Вы сможете вносить правки.</div>
+                </div>
+                <div class="step">
+                    <div class="step__num">Шаг 3</div>
+                    <h3 class="step__title h3">Отправляйтесь в путь</h3>
+                    <div class="step__text">Мы бронируем всё необходимое: билеты, жилье, трансферы, уникальные встречи.
+                        А вы просто покупаете билет на самолет и получаете готовое приключение.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="form-section" id="form">
+        <div class="wrapper">
+            <h2 class="form-section__title h2">Спроектируйте путешествие вашей мечты</h2>
+            <p class="form-section__subtitle">Ответьте на пару вопросов — мы поймем, какая Япония ждет именно вас</p>
+
+            <form class="dream-form" id="dreamForm">
+                <div class="dream-form__question">
+                    <h3 class="dream-form__label h3">Я МЕЧТАЮ УВИДЕТЬ... (выберите несколько)</h3>
+                    <div class="interest-grid">
+                        <div class="interest-card">
+                            <input class="interest-card__input" type="checkbox" name="interests" id="temples">
+
+                            <label class="polaroid-card" for="temples">
+                                <img src="/media/img/Japanese-temple.jpg" alt="Описание" class="polaroid-card__image">
+                                <div class="polaroid-card__caption-box">
+                                    <p class="polaroid-card__caption">Храмы и сады</v>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="interest-card">
+                            <input class="interest-card__input" type="checkbox"name="interests"  id="cities">
+
+                            <label class="polaroid-card" for="cities">
+                                <img src="/media/img/Japanese-metropolis.jpg" alt="Описание"
+                                    class="polaroid-card__image">
+                                <div class="polaroid-card__caption-box">
+                                    <p class="polaroid-card__caption">Мегаполисы</p>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="interest-card">
+                            <input class="interest-card__input" type="checkbox"name="interests"  id="nature">
+
+                            <label class="polaroid-card" for="nature">
+                                <img src="/media/img/Japanese-nature.jpg" alt="Описание" class="polaroid-card__image">
+                                <div class="polaroid-card__caption-box">
+                                    <p class="polaroid-card__caption">Природа и горы</p>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="interest-card">
+                            <input class="interest-card__input" type="checkbox"name="interests"  id="anime">
+
+                            <label class="polaroid-card" for="anime">
+                                <img src="/media/img/Japanese-anime.jpg" alt="Описание" class="polaroid-card__image">
+                                <div class="polaroid-card__caption-box">
+                                    <p class="polaroid-card__caption">Аниме-культура</p>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="interest-card">
+                            <input class="interest-card__input" type="checkbox"name="interests"  id="food">
+
+                            <label class="polaroid-card" for="food">
+                                <img src="/media/img/Japanese-Gastronomy.jpg" alt="Описание"
+                                    class="polaroid-card__image">
+                                <div class="polaroid-card__caption-box">
+                                    <p class="polaroid-card__caption">Гастрономия</p>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="interest-card">
+                            <input class="interest-card__input" type="checkbox"name="interests"  id="art">
+
+                            <label class="polaroid-card" for="art">
+                                <img src="/media/img/Japanese-Art.jpg" alt="Описание" class="polaroid-card__image">
+                                <div class="polaroid-card__caption-box">
+                                    <p class="polaroid-card__caption">Искусство</p>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    <p class="form__mesage-errore dream-form__errore-card">Выбирите минимум один вариант</p>
+                </div>
+
+                <div class="dream-form__question">
+                    <h3 class="dream-form__label h3">МОЙ ИДЕАЛЬНЫЙ ДЕНЬ — ЭТО...</h3>
+                    <div class="rhythm-grid">
+                        <label class="rhythm-card">
+                            <input class="form-section__radio" type="radio" name="rhythm" value="active">
+                            <p class="rhythm-card__title">Насыщенный</p>
+                            <p class="rhythm-card__desc">полный открытий</p>
+                        </label>
+                        <label class="rhythm-card">
+                            <input class="form-section__radio" type="radio" name="rhythm" value="calm">
+                            <p class="rhythm-card__title">Неспешный</p>
+                            <p class="rhythm-card__desc">созерцательный</p>
+                        </label>
+                        <label class="rhythm-card">
+                            <input class="form-section__radio" type="radio" name="rhythm" value="extreme">
+                            <p class="rhythm-card__title">Адреналиновый</p>
+                            <p class="rhythm-card__desc">экстремальный</p>
+                        </label>
+                        <label class="rhythm-card">
+                            <input class="form-section__radio" type="radio" name="rhythm" value="cultural">
+                            <p class="rhythm-card__title">Культурный</p>
+                            <p class="rhythm-card__desc">полное погружение</p>
+                        </label>
+                    </div>
+                    <p class="form__mesage-errore dream-form__errore-card">Выбирите один из вариантов</p>
+                </div>
+
+                <div class="dreem-form__text-box">
+                    <h3 class="dream-form__label h3">ВАШИ КОНТАКТЫ</h3>
+                    <div class="input__text-box dreem-form__name">
+                        <input class="input__text-input js-required-field" placeholder="Ваше имя"
+                            name="Имя" type="text">
+                        <label class="input__text-lable">Ваше имя</label>
+                        <p class="form__mesage-errore">Заполните поле</p>
+                    </div>
+                    <div class="input__text-box dreem-form__email">
+                        <input class="input__text-input js-required-field" placeholder="Email"
+                            name="Email" type="email">
+                        <label class="input__text-lable">Email для связи</label>
+                        <p class="form__mesage-errore">Заполните поле</p>
+                    </div>
+                    <h3 class="dream-form__label h3">Дополнительные пожелаения</h3>
+                    <div class="input__text-box dreem-form__enother">
+                        <textarea class="input__text-textarea" placeholder="Все, что душе угодно"
+                            name="Доп инфо"></textarea>
+                        <label class="input__text-lable">Все, что душе угодно</label>
+                    </div>
+                </div>
+
+                <div class="dream-form__button-box">
+                    <button type="submit" class="form__submit button button__red hover-item">
+                        Отправить мечту в путешествие
+                    </button>
+                </div>
+                <p class="dream-form__note">* Мы пришлем предварительный маршрут через 48 часов</p>
+            </form>
+        </div>
+    </section>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

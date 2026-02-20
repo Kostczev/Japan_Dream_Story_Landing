@@ -1,0 +1,23 @@
+.how-it-works__title {
+    margin-bottom: 24px;
+}
+
+.how-it-works__steps {
+    display: grid;
+    gap: 60px;
+}
+
+.step__title {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+    .section__two-columns .wrapper {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .how-it-works__steps {
+        gap: 32px;
+    }
+}

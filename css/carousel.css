@@ -1,0 +1,15 @@
+.carousel__container {
+    width: 100%;
+    position: relative;
+    touch-action: pan-y pinch-zoom;
+}
+
+.carousel__track {
+    display: flex;
+    gap: 20px;
+    will-change: transform;
+    user-select: none;
+}
+
+.carousel__item {
+}

@@ -1,0 +1,58 @@
+.who-us {
+    margin-bottom: var(--section-gap);
+}
+
+.who-us .wrapper {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    column-gap: 100px;
+}
+
+.who-us__title {}
+
+.who-us__cards {
+    display: grid;
+    gap: 80px;
+}
+
+.who-us__card-title {
+    margin-bottom: 12px;
+    color: var(--color-text-primary);
+}
+
+@media (max-width: 1300px) {
+    .who-us {
+        margin-bottom: 160px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .who-us {
+        margin-bottom: 120px;
+    }
+}
+
+@media (max-width: 900px) {
+    .who-us {
+        margin-bottom: 40px;
+    }
+
+    .who-us .wrapper {
+        column-gap: 80px;
+    }
+
+    .who-us__cards {
+        gap: 48px;
+    }
+}
+
+@media (max-width: 480px) {
+    .who-us .wrapper {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .who-us__cards {
+        gap: 32px;
+    }
+}

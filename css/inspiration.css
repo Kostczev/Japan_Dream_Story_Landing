@@ -1,0 +1,173 @@
+.inspiration {
+    margin-bottom: 160px;
+}
+
+.inspiration__title {
+    margin-bottom: 24px;
+}
+
+.inspiration__horisontal-list {
+    /* margin-bottom: 10vh; */
+    margin-bottom: 2vh;
+    /* отсуп для визуального центрования изображения (невелирование заголовка) */
+}
+
+.inspiration__card {
+    min-width: 100vw;
+    /* margin-left: -10vw; */
+    margin-left: -21vw;
+}
+
+.inspiration__card:first-child {
+    margin-left: 0;
+}
+
+.inspiration__card-text {
+    position: absolute;
+    bottom: 80px;
+    left: 80px;
+    z-index: 2;
+
+    color: var(--color-text-white-primary);
+}
+
+.inspiration__card-title {
+    margin-bottom: 24px;
+}
+
+.inspiration__card .wrapper {
+    aspect-ratio: 16 / 9;
+    border-radius: 20px;
+    overflow: hidden;
+    background: url() center / cover no-repeat;
+}
+
+.inspiration__card .wrapper::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--color-background-dark-04);
+}
+
+.inspiration__card.card-1 .wrapper {
+    background-image: url(/media/img/Arashiyama.jpg);
+}
+
+.inspiration__card.card-2 .wrapper {
+    background-image: url(/media/img/food.jpg);
+}
+
+.inspiration__card.card-3 .wrapper {
+    background-image: url(/media/img/Kiyomizu-dera.jpg);
+}
+
+.inspiration__card.card-3 .wrapper::after {
+    background: var(--color-background-dark-05);
+}
+
+.inspiration__card.card-4 .wrapper {
+    background-image: url(/media/img/Shibuya-Intersection.jpg);
+}
+
+.inspiration__card.card-5 .wrapper {
+    background-image: url(/media/img/Onsen.jpg);
+}
+
+.inspiration__card.card-6 .wrapper {
+    background-image: url(/media/img/kendo.jpg);
+}
+
+.inspiration__card.card-7 .wrapper {
+    background-image: url(/media/img/Anime-culture.jpg);
+}
+
+@media (min-width: 2300px) {
+    .inspiration__card {
+        margin-left: -35vw;
+    }
+}
+
+@media (min-width: 3000px) {
+    .inspiration__card {
+        margin-left: -50vw;
+    }
+}
+
+@media (min-width: 4000px) {
+    .inspiration__card {
+        margin-left: -65vw;
+    }
+}
+
+@media (min-width: 6000px) {
+    .inspiration__card {
+        margin-left: -75vw;
+    }
+}
+
+@media (max-width: 1700px) {
+    .inspiration__card {
+        margin-left: -10vw;
+    }
+}
+
+@media (max-width: 1400px) {
+    .inspiration {
+        margin-bottom: 100px;
+    }
+
+    .inspiration__card {
+        margin-left: -6vw;
+    }
+}
+
+@media (max-width: 900px) {
+    .inspiration {
+        margin-bottom: 40px;
+    }
+
+    .inspiration__card .wrapper {
+        margin: 0 6vw;
+        aspect-ratio: 4 / 3;
+    }
+}
+
+@media (max-width: 650px) {
+    .inspiration__card .wrapper {
+        margin: 0 6vw;
+        aspect-ratio: 1 / 1;
+    }
+
+    .inspiration__card-text {
+        left: 40px;
+        bottom: 60px;
+    }
+
+    .inspiration__card-title {
+        margin-bottom: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .inspiration__card {
+        margin-left: 0;
+    }
+
+    .inspiration__card .wrapper {
+        margin: 0 20px;
+        aspect-ratio: 3 / 5;
+    }
+
+    .inspiration__card-text {
+        left: 40px;
+        right: 40px;
+        bottom: 40px;
+    }
+
+    .inspiration__card-title {
+        margin-bottom: 8px;
+    }
+}
