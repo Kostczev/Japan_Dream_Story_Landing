@@ -34,4 +34,4 @@ All components are structured as independent modules to allow reuse and lifecycl
 
 ## Live Demo
 
-https://your-demo-link-here
+https://kostczev.github.io/Japan_Dream_Story_Landing/
