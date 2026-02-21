@@ -17,9 +17,13 @@ document.addEventListener('DOMContentLoaded', () => {
         new HorizontalScrollSection(el);
     })
 
+
     const form =
         document.getElementById('dreamForm');
     if (form) {
         new DreamForm(form);
     }
+    // const isTouch = window.matchMedia('(pointer: coarse)').matches;
+    // if (!isTouch) {
+    // }
 });
