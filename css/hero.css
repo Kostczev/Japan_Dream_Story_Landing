@@ -83,10 +83,7 @@
     .hero__content {
         padding-top: 32px;
         padding-bottom: 32px;
-    }
-
-    .hero__logo {
-        margin-bottom: 32px;
+        height: 100vh;
     }
 
     .hero__title {
@@ -98,7 +95,7 @@
     }
 
     .hero__button {
-        margin-bottom: 48px;
+        margin-bottom: 80px;
         text-align: center;
     }
 
